@@ -139,4 +139,18 @@ public class MoodAnalyzerTest
         }
     }
 
+    @Test
+    public void givenNullMood_ShouldThrowException()
+    {
+        MoodAnalyzer moodAnalyzer=new MoodAnalyzer(null);
+        try
+        {
+            moodAnalyzer.analyzeMood(null);
+        }
+        catch(MoodAnalysisException e)
+        {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.ENTERED_NULL,e.type);
+        }
+    }
+
 }
