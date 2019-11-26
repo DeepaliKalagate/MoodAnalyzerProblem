@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenNullMood_ShouldThrowException">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals">
     <configuration name="MoodAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -71,12 +71,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenEmptyMood_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenEmptyMood_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -91,12 +91,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenEmptyMood_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenEmptyMood_ShouldThrowException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenNullMood_ShouldThrowException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenEmptyMood_ShouldThrowException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.moodAnalyzer_MoodException" />
         <item itemvalue="Gradle.MoodAnalyzerTest" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy" />
       </list>
     </recent_temporary>
   </component>
