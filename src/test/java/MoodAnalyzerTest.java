@@ -37,4 +37,14 @@ public class MoodAnalyzerTest
         String mood=moodAnalyzer.analyzeMood();
         Assert.assertEquals("Happy",mood);
     }
+
+    //Constructor Should Return Sad Mood
+    @Test
+    public void givenMessage_WhenSad_ShouldReturnSad()
+    {
+        MoodAnalyzer moodAnalyzer = new MoodAnalyzer("I am in Sad Mood");
+        String mood = moodAnalyzer.analyzeMood();
+        Assert.assertEquals("SAD", mood);
+    }
+
 }
