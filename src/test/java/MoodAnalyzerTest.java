@@ -123,4 +123,20 @@ public class MoodAnalyzerTest
             Assert.assertEquals("Please enter proper message",e.getMessage());
         }
     }
+
+    //Using Enum Should Return  Exception Message
+    @Test
+    public void givenEmptyMood_ShouldThrowException()
+    {
+        MoodAnalyzer moodAnalyzer=new MoodAnalyzer();
+        try
+        {
+            moodAnalyzer.analyzeMood();
+        }
+        catch(MoodAnalysisException e)
+        {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.ENTERED_EMPTY,e.type);
+        }
+    }
+
 }
