@@ -34,6 +34,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -58,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy">
     <configuration name="MoodAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -139,12 +149,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -161,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MoodAnalyzerTest" />
+        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy" />
+        <item itemvalue="Gradle.MoodAnalyzerTest" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_WhenSadOrHappy_ShouldReturnSadOrHappy" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy" />
       </list>
     </recent_temporary>
   </component>
