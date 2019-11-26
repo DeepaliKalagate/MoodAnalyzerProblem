@@ -22,7 +22,6 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-MoodAnalyzerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-MoodAnalyzerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalysisException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalysisException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyzerFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTest.java" afterDir="false" />
     </list>
@@ -71,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.giveWrongClassName_ShouldThrowException">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.giveWrongConstructor_ShouldThrowException">
     <configuration name="MoodAnalyzerTest.giveWrongClassName_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,12 +91,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenEmptyMood_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.giveWrongConstructor_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenEmptyMood_ShouldThrowException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveWrongConstructor_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -112,12 +111,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenEmptyMood_ShouldThrowException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenEmptyMood_ShouldThrowException&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -174,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTest.giveWrongConstructor_ShouldThrowException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveWrongClassName_ShouldThrowException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenEmptyMood_ShouldThrowException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.moodAnalyzer_MoodException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenNullMood_ShouldThrowException" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals" />
       </list>
     </recent_temporary>
   </component>

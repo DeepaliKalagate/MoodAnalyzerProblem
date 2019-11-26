@@ -160,8 +160,8 @@ public class MoodAnalyzerTest
         try
         {
             MoodAnalyzer moodAnalyzer = MoodAnalyzerFactory.createMoodAnalyzer("I am in a Happy Mood");
-            boolean res = moodAnalyzer.equals(moodAnalyzer);
-            Assert.assertTrue(res);
+            boolean result = moodAnalyzer.equals(moodAnalyzer);
+            Assert.assertTrue(result);
         }
         catch (Exception e)
         {
@@ -175,15 +175,32 @@ public class MoodAnalyzerTest
     @Test
     public void giveWrongClassName_ShouldThrowException() throws MoodAnalysisException
     {
-        MoodAnalyzer moodAnalyzer=MoodAnalyzerFactory.createMoodAnalyzer("Class Name Not Proper");
+
         try
         {
+            MoodAnalyzer moodAnalyzer=MoodAnalyzerFactory.createMoodAnalyzer("Class Name Not Proper");
             moodAnalyzer.analyzeMood();
         }
         catch(MoodAnalysisException e)
         {
             Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
         }
-
     }
+
+    //Created Object of MoodAnalyzer Using MoodAnalyzerFactory should throw Exception
+    @Test
+    public void giveWrongConstructor_ShouldThrowException() throws MoodAnalysisException
+    {
+
+        try
+        {
+            MoodAnalyzer moodAnalyzer=MoodAnalyzerFactory.createMoodAnalyzer("Illegal Constructor");
+            moodAnalyzer.analyzeMood();
+        }
+        catch(MoodAnalysisException e)
+        {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD,e.type);
+        }
+    }
+
 }

@@ -3,12 +3,13 @@ import java.lang.reflect.InvocationTargetException;
 
 public class MoodAnalyzerFactory
 {
-    public static MoodAnalyzer createMoodAnalyzer(String message) throws MoodAnalysisException {
+    public static MoodAnalyzer createMoodAnalyzer(String message) throws MoodAnalysisException
+    {
         try
         {
-            Class moodAnalyzerClass=Class.forName("MoodAnalyzer1");
+            Class moodAnalyzerClass=Class.forName("MoodAnalyzer");
             Constructor moodConstructor=moodAnalyzerClass.getConstructor(String.class);
-            Object moodObject=moodConstructor.newInstance(message);
+            Object moodObject=moodConstructor.newInstance(message,message);
             return (MoodAnalyzer) moodObject;
         }
         catch (ClassNotFoundException e)
@@ -17,7 +18,7 @@ public class MoodAnalyzerFactory
         }
         catch (NoSuchMethodException e)
         {
-            e.printStackTrace();
+           throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD);
         }
         catch (IllegalAccessException e)
         {
@@ -26,6 +27,10 @@ public class MoodAnalyzerFactory
         catch (InstantiationException e)
         {
             e.printStackTrace();
+        }
+        catch (IllegalArgumentException e)
+        {
+            throw new MoodAnalysisException(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD);
         }
         catch (InvocationTargetException e)
         {

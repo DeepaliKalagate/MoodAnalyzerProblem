@@ -1,5 +1,7 @@
 public class MoodAnalysisException extends Exception
 {
+
+
     public MoodAnalysisException(String message)
     {
         super(message);
@@ -10,6 +12,13 @@ public class MoodAnalysisException extends Exception
         ENTERED_NULL,ENTERED_EMPTY,NO_SUCH_FIELD,NO_SUCH_METHOD,NO_SUCH_CLASS,OBJECT_CREATION_ISSUE
     }
     ExceptionType type;
+
+    public MoodAnalysisException(ExceptionType noSuchMethod)
+    {
+        super(String.valueOf(noSuchMethod));
+        this.type=noSuchMethod;
+    }
+
 
     public MoodAnalysisException(String message,ExceptionType type)
     {
