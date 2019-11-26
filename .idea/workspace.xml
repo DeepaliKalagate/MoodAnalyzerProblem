@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3b0cc5-4481-48b3-8e0a-cda6a833c59e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MoodAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff3b0cc5-4481-48b3-8e0a-cda6a833c59e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenMessage_WhenSad_ShouldReturnSad">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenMessageHappy_ShouldReturnSad">
     <configuration name="MoodAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -92,12 +88,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -112,12 +108,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenMessageHappy_ShouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenMessageHappy_ShouldReturnSad&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -154,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTest.givenMessageHappy_ShouldReturnSad" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenMessage_WhenSad_ShouldReturnSad" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_whenProper_ShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad" />
       </list>
     </recent_temporary>
   </component>
