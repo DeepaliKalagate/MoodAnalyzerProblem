@@ -169,4 +169,21 @@ public class MoodAnalyzerTest
         }
 
     }
+
+
+    //Created Object of MoodAnalyzer Using MoodAnalyzerFactory should throw Exception
+    @Test
+    public void giveWrongClassName_ShouldThrowException() throws MoodAnalysisException
+    {
+        MoodAnalyzer moodAnalyzer=MoodAnalyzerFactory.createMoodAnalyzer("Class Name Not Proper");
+        try
+        {
+            moodAnalyzer.analyzeMood();
+        }
+        catch(MoodAnalysisException e)
+        {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS,e.type);
+        }
+
+    }
 }

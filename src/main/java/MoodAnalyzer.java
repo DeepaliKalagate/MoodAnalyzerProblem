@@ -24,8 +24,8 @@ public class MoodAnalyzer
             return "Happy";
         }
         catch(NullPointerException e)
-        {
-            return "HAPPY";
+                            {
+                                return "HAPPY";
         }
     }
 
