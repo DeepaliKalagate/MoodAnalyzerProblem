@@ -19,13 +19,13 @@ public class MoodAnalyzer
     {
         try
         {
-            if (message.contains("Happy"))
+            if (message.contains("Sad"))
                 return "SAD";
             return "Happy";
         }
         catch(NullPointerException e)
         {
-            throw new MoodAnalysisException("Please enter Proper Message");
+            return "HAPPY";
         }
     }
 }
