@@ -20,4 +20,13 @@ public class MoodAnalyzerTest
         String mood=moodAnalyzer.analyzeMood("I am in a Sad Mood");
         Assert.assertEquals("SAD",mood);
     }
+
+    //UseCase One Should Return Happy Mood
+    @Test
+    public void giveMessageAny__ShouldReturnHappy()
+    {
+        MoodAnalyzer moodAnalyzer=new MoodAnalyzer();
+        String mood=moodAnalyzer.analyzeMood("I am in a Any Mood");
+        Assert.assertEquals("HAPPY",mood);
+    }
 }

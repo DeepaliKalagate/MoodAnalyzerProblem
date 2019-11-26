@@ -79,12 +79,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MoodAnalyzerTest.giveMessage_WhenSadOrHappy_ShouldReturnSadOrHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_WhenSadOrHappy_ShouldReturnSadOrHappy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -122,6 +162,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.MoodAnalyzerTest" />
+        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessageAny__ShouldReturnHappy" />
+        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_WhenSad_ShouldReturnSad" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_WhenSadOrHappy_ShouldReturnSadOrHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy" />
       </list>
