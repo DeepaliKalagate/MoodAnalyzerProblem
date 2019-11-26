@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff3b0cc5-4481-48b3-8e0a-cda6a833c59e" name="Default Changelist" comment="" />
+    <list default="true" id="ff3b0cc5-4481-48b3-8e0a-cda6a833c59e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/MoodAnalyzerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U8cjqpBBsyOKFljwi0KK7c1gH5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -33,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy">
     <configuration name="MoodAnalyzerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -54,8 +61,29 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTest.giveMessage_whenSad_ShouldReturnsadOrHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest" />
       </list>
     </recent_temporary>
@@ -72,5 +100,16 @@
       <updated>1574741800280</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
