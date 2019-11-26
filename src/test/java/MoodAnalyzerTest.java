@@ -153,4 +153,11 @@ public class MoodAnalyzerTest
         }
     }
 
+    //Created Object of MoodAnalyzer Using MoodAnalyzerFactory
+    @Test
+    public void givenMoodAnalyzerClass_WhenProper_ShouldReturnObjectEquals()
+    {
+        MoodAnalyzer moodAnalyzer = MoodAnalyzerFactory.createMoodAnalyzer("I am in a Happy Mood");
+        Assert.assertEquals(new MoodAnalyzer("I am in a Happy Mood"), moodAnalyzer);
+    }
 }
