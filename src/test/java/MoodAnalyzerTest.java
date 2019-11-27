@@ -205,17 +205,6 @@ public class MoodAnalyzerTest
         }
     }
 
-    /*@Test
-    public void givenMoodAnalyseClass_WhenProper_ReturnObject() throws MoodAnalysisException
-    {
-        MoodAnalyzer moodAnalyzer = MoodAnalyzerReflector.createMoodAnalyzer();
-        boolean result = moodAnalyzer.equals(moodAnalyzer);
-        Assert.assertTrue(result);
-        //Assert.assertEquals(new MoodAnalyzer("I am in the happy mood"), moodAnalyzer);
-
-    }*/
-
-
     @Test
     public void givenMoodAnalyzerClass_WhenProper_ShouldReturnObject()
     {
@@ -244,6 +233,21 @@ public class MoodAnalyzerTest
             Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS, e.type);
         }
     }
+
+    @Test
+    public void givenMoodAnalyzer_ImproperMethodName_ShouldReturnException()
+    {
+        try
+        {
+            Constructor<?> constructor =  MoodAnalyzerReflector.getConstructor(String.class);
+            MoodAnalyzerReflector.createMoodAnalyser(constructor,"I am in happy mood");
+        }
+        catch (MoodAnalysisException e)
+        {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD, e.type);
+        }
+    }
+
 
 
 }
