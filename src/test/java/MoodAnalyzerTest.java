@@ -231,5 +231,19 @@ public class MoodAnalyzerTest
         }
     }
 
+    @Test
+    public void givenMoodAnalyzer_ImproperClassName_ShouldReturnException()
+    {
+        try
+        {
+            Constructor<?> constructor =  MoodAnalyzerReflector.getConstructor(String.class);
+            MoodAnalyzerReflector.createMoodAnalyser(constructor,"I am in happy mood");
+        }
+        catch (MoodAnalysisException e)
+        {
+            Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_CLASS, e.type);
+        }
+    }
+
 
 }
