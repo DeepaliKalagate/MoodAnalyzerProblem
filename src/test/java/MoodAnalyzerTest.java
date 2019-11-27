@@ -247,7 +247,21 @@ public class MoodAnalyzerTest
             Assert.assertEquals(MoodAnalysisException.ExceptionType.NO_SUCH_METHOD, e.type);
         }
     }
-
+    @Test
+    public void givenHappyMessageWithReflectionShouldReturnHappy()
+    {
+        try
+        {
+            Constructor<?> constructor =  MoodAnalyzerReflector.getConstructor();
+            Object myObject = MoodAnalyzerReflector.createMoodAnalyser(constructor);
+            Object analyseMood = MoodAnalyzerReflector.invokeMethod(myObject, "analyzeMood");
+            Assert.assertEquals("HAPPY",analyseMood);
+        }
+        catch (MoodAnalysisException e)
+        {
+            e.printStackTrace();
+        }
+    }
 
 
 }
