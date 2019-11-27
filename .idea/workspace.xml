@@ -53,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenMoodAnalyser_OnChangeMood_ShouldReturnHappy">
+  <component name="RunManager" selected="Gradle.MoodAnalyzerTest.givenHappyMessage_WithDefaultConstructor_ShouldReturnHappy">
     <configuration name="MoodAnalyzerTest.givenHappyMessageWithReflectionShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -74,12 +74,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MoodAnalyzerTest.givenMoodAnalyserImproperClassNameShouldReturnException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MoodAnalyzerTest.givenHappyMessage_WithDefaultConstructor_ShouldReturnHappy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenMoodAnalyserImproperClassNameShouldReturnException&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MoodAnalyzerTest.givenHappyMessage_WithDefaultConstructor_ShouldReturnHappy&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MoodAnalyzerTest.givenHappyMessage_WithDefaultConstructor_ShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenMoodAnalyser_OnChangeMood_ShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenHappyMessageWithReflectionShouldReturnHappy" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenMoodAnalyzer_ImproperMethodName_ShouldReturnException" />
         <item itemvalue="Gradle.MoodAnalyzerTest.givenMoodAnalyserImproperMethodNameShouldReturnException" />
-        <item itemvalue="Gradle.MoodAnalyzerTest.givenMoodAnalyserImproperClassNameShouldReturnException" />
       </list>
     </recent_temporary>
   </component>
